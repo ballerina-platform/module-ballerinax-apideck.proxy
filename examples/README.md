@@ -2,13 +2,24 @@
 
 The `ballerinax/apideck.proxy` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+1. **[CRM company onboarding](https://github.com/ballerina-platform/module-ballerinax-apideck.proxy/tree/main/examples/crm_company_onboarding)** - Read the companies a downstream CRM holds and onboard a new one through the proxy.
+
+2. **[CRM company cleanup](https://github.com/ballerina-platform/module-ballerinax-apideck.proxy/tree/main/examples/crm_company_cleanup)** - Check the methods a company endpoint supports, rename a company and optionally delete it.
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+1. Generate Apideck credentials to authenticate the connector as described in the [Setup guide](https://central.ballerina.io/ballerinax/apideck.proxy/latest#setup-guide).
+
+2. For each example, create a `Config.toml` file with the related configuration. Here's an example of how your Config.toml file should look:
+
+```toml
+apiKey = "<API key>"
+appId = "<Application ID>"
+consumerId = "<Consumer ID>"
+serviceId = "<Service ID>"
+```
+
+Each example lists the additional values it needs in its own README.
 
 ## Running an example
 
